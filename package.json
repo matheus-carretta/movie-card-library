@@ -12,6 +12,7 @@
     "serialize-javascript": ">=2.1.1"
   },
   "scripts": {
+    "homepage": "https://matheus-carretta.github.io/movie-card-library/",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --verbose=true",
@@ -19,7 +20,7 @@
     "lint:styles": "npx stylelint '**/*.css'",
     "lint": "eslint --no-inline-config --no-error-on-unmatched-pattern -c .eslintrc.json . --ext .js,.jsx",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d src"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": "react-app"
